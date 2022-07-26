@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Lido Docs Template',
+  title: 'Lido Docs Template', // TODO [change it]
   tagline: 'Lido are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/docs-template/',
+  url: 'https://your-docusaurus-test-site.com', // TODO [change it]
+  baseUrl: '/docs-template/', // TODO [change it] it just should be '/' in case of own domain
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lidofinance', // Usually your GitHub org/user name.
-  projectName: 'docs-template', // Usually your repo name.
+  projectName: 'docs-template', // Usually your repo name. TODO [change it]
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -56,7 +56,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Lido Docs Template',
+        title: 'Lido Docs Template', // TODO [change it]
         logo: {
           alt: 'Lido Docs Logo',
           src: 'img/logo.svg',

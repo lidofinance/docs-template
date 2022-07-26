@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Check template TODOs are resolved
+        if: ${{ github.repository != 'lidofinance/docs-template' }}
+        run: '! grep -rin "TODO " ./'
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18

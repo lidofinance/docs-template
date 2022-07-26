@@ -1,7 +1,22 @@
 # Template
 
 This is template for all Lido Docs sites built from Docusaurus static site generator
-Rename template-related properties in docusaurus.config.js and enjoy to build your pretty docs site!
+
+# What you should do 
+
+Just create your awesome repo from this template by clicking `Use this template` button and rename template-related properties in docusaurus.config.js.   
+All properties that you need to change marked as `TODO` and checked in workflow to protect you from unexpected titles, paths or something else    
+Don't forget to update this readme of course
+
+That's all! Enjoy building your pretty docs site.
+
+# Deployment
+
+This template contains workflows for check on each pull request and deploy when the `main` branch has changed.
+Just create pull request to the `main` branch, wait for checks passed, so it will be ready to merge.
+
+
+Docs below are form docusaurus documentation except for the deployment block
 
 # Website
 
@@ -28,19 +43,3 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
