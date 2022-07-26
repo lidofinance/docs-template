@@ -9,7 +9,7 @@ const config = {
   title: 'Lido Docs Template',
   tagline: 'Lido are cool',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/docs-template/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
