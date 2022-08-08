@@ -16,7 +16,7 @@ jobs:
 
       - name: Check template TODOs are resolved
         if: ${{ github.repository != 'lidofinance/docs-template' }}
-        run: '! grep -rin "TODO " ./'
+        run: '! grep -rin "TODO " ./ --exclude-dir .github'
 
       - uses: actions/setup-node@v3
         with:
